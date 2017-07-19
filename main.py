@@ -16,7 +16,7 @@ headers = {
     'authority': 'savorwavs.com',
 }
 
-data = '{"zip":"' + ZIPCODE + '","firstName":"' + FIRSTNAME + '","lastName":"' + LASTNAME + '","phoneNumber":"+1' + PHONENUMBER + '","optedIn":false}'
+data = '{"zip":"' + 19027 + '","firstName":"' + Mac + '","lastName":"' + Langford + '","phoneNumber":"+1' + 2157381185 + '","optedIn":false}'
 
 r = requests.post('https://savorwavs.com/api/offer/request', headers=headers, data=data)
 if r.status_code == 200:
